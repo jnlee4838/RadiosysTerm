@@ -1,7 +1,8 @@
 # Radiosys@Term
 
-This is an executable exe tool which is working on Windows 8 later.
+This is an executable file which is working on Windows 8 later.
 
+<img width="1125" height="903" alt="about_Radiosys@Term" src="https://github.com/user-attachments/assets/79d368c6-73ab-40d4-9654-e08c0cb970c4" />
 
 Thie terminal is inspired by Br@y Terminal. by the way. Thanks to Bray
 
@@ -39,4 +40,12 @@ $01$02$03$04$05 - this will send 0x01 0x02 0x03 0x04 0x05
 HOW TO USE TX MULTI FUNCTION?
 You can send a predefined string in each TX MULTI FUNCTION, totally twenty four (24). and you can set it periodic repeative timer. by the way, please be cautious to set up a right timer value depending on the length of packet and the baudrate you set up. and each TX MULTI FUNCTION has got same characteristic as one of the transmit line.
 
-<img width="1125" height="903" alt="about_Radiosys@Term" src="https://github.com/user-attachments/assets/79d368c6-73ab-40d4-9654-e08c0cb970c4" />
+Virus checkup
+I don't know why they suspect Radiosys@Term malicious. Windows Security often warns you it as a malicious app.
+
+<img width="1630" height="1072" alt="about_Radiosys@Term_info" src="https://github.com/user-attachments/assets/bd418773-0c8d-4d41-8c13-79bea6105cea" />
+
+CONTACT
+feel free to contact jnlee4838@gmail.com
+
+

@@ -67,15 +67,15 @@ I have decided to make some converter modules which support high speed and isola
 </br>
 <img width="1252" height="1252" alt="Image" src="https://github.com/user-attachments/assets/70db2867-003f-4280-8e69-ced28b0d631b" />
 </br>
-Buy: [Here](https://www.coupang.com/vp/products/9088798826?itemId=26707488716&lptag=A01508399&redirect=landing&searchId=94c574b5178e4a54a85f87a141379558&sourceType=brandstore-baseline_list&spec=10799999&src=1139998&storeId=265462&subSourceType=brandstore-baseline_list&vendorId=A01508399&vendorItemId=93593746236&wPcid=14274669023642508478131)
+Buy: [Here](https://smartstore.naver.com/radiosystek/products/12396782235)
 </br>
 </br>
 </br>
-**2. High Speed Isolated USB to 485T Converter Module 250kbps 5kV**\
+**2. High Speed Isolated USB to 485 Converter Module 250kbps 5kV**\
 </br>
 <img width="1252" height="1252" alt="Image" src="https://github.com/user-attachments/assets/aa54847d-33b1-4e98-8b7f-fdc830b3b726" />
 </br>
-Buy: [Here](https://www.coupang.com/vp/products/9065480884?itemId=26620754691&lptag=A01508399&redirect=landing&searchId=94c574b5178e4a54a85f87a141379558&sourceType=brandstore-baseline_list&spec=10799999&src=1139998&storeId=265462&subSourceType=brandstore-baseline_list&vendorId=A01508399&vendorItemId=93593714105&wPcid=14274669023642508478131)
+Buy: [Here](https://smartstore.naver.com/radiosystek/products/12405048497)
 </br>
 </br>
 </br>

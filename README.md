@@ -5,7 +5,7 @@ Another serial terminal in MS Windows 8 later...
 
 Sorry! It is an exe file, no source code.
 
-Thie terminal is inspired by Br@y Terminal. by the way. Thanks to Bray!
+This terminal is inspired by Br@y Terminal. by the way. Thanks to Bray!
 
 ![Radiosys@Term Serial Terminal](/images/Radiosys@Term_serial_terminal_0.4.png)
 
@@ -25,13 +25,15 @@ Thie terminal is inspired by Br@y Terminal. by the way. Thanks to Bray!
 
 ## Usage/Examples
 
+
 ### Rx Timeout
 
-It depens on the baudrate settings.
+It depends on the baudrate settings.
 
 In MODBUS side, it accepts 3.5 bytes of leadout delay though.
 
-This terminal waits and terminates a packet stream in 64 bytes timeout plus 10ms.\
+This terminal waits and terminates a packet stream in 64 bytes timeout plus 10ms.
+
 I have tried to set this terminal with much shorter Rx timeout value such as 3.5 bytes in the main thread...but, it was not accurate.
 because of my poor skill ???
 
@@ -41,12 +43,15 @@ A packet always starts from ">".
 
 it means your packet is not a string if you can see ">" in the middle of a packet and it was not a intended char.
 
+
 ### Comm Window
 
 You can toggle between ASCII and HEX.
 
 A hex char is displayed by the format of "XX:" (two digits + colon).
+
 The characters beyond ASCII table will be displayed in the above manner even though you set it at ASCII mode. eg.: "8B:88:34" means "0x8B 0x88 0x33 9x34"
+
 
 ### Transmission
 
@@ -60,11 +65,13 @@ There is a special char "**$**". you can use "$XX to send a hexdecimal char. and
 
 * example 3. $01$02$03$04$05 - this will send 0x01 0x02 0x03 0x04 0x05.
 
+
 ### Macros (how to use Tx Multi Function?)
 
 You can send a predefined string in each macro(Tx Multi Function), totally twenty four (24).
 
 You can set it periodic repeative timer. by the way, please be cautious to set up a right timer value depending on the length of packet and the baudrate you set up.
+
 
 ### Virus check
 
@@ -74,12 +81,15 @@ I don't know why they suspect Radiosys@Term malicious. Windows Security often wa
 
 **It's Not reallistically!!!**
 
+
 ### High speed isolated USB to serial converter modules
 
 I was often in trouble to make the serial work properly whenever kick off new projects cause "u(s)art" is the very first step.
 
-I have wasted a lot of time to make it.\
-Suffered from poor hardware...\
+I have wasted a lot of time to make it.
+
+Suffered from poor hardware...
+
 Suffered from poor tools...
 
 The below converter modules support 5kV isolation in both signal & power lines.
@@ -98,9 +108,12 @@ Also fulfilled the over-current protection, 15kV ESD...
 
 * Buy: [**Here**](https://smartstore.naver.com/radiosystek/products/12405048497)
 
+
 ## Support
 
 For support, email me jnlee4838@gmail.com.
+
+
 ## Related
 
 Here are some related projects

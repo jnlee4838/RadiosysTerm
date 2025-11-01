@@ -1,83 +1,109 @@
-# Radiosys@Term
 
-**This is an executable file which is working on Windows 8 later.**
+# Serial Terminal - Radiosys@Term
 
-</br>
-<img width="1125" height="903" alt="about_Radiosys@Term" src="https://github.com/user-attachments/assets/79d368c6-73ab-40d4-9654-e08c0cb970c4" />
-</br>
-</br>
-Thie terminal is inspired by Br@y Terminal. by the way. Thanks to Bray
+Another serial terminal in MS Windows 8 later...
 
-DB9 PINOUT on PC:
-1 - CD - Carrier Detect (IN)
-2 - RX - Data Receive (IN)
-3 - TX - Data Transmit (OUT)
-4 - DTR - Data Terminal Ready (OUT)
-5 - GND - Ground
-6 - DSR - Data Set Ready (IN)
-7 - RTS - Request To Send (OUT)
-8 - CTS - Clear To Send (IN)
-9 - RI - Ring Indicator (IN)
+Sorry! It is an exe file, no source code.
 
-**RX TIMEOUT?**\
-It depens on the baudrate settings. In MODBUS side, it accepts 3.5 bytes of leadout delay though. this terminal waits and terminates a packet stream in 64 bytes timeout plus 10ms. I have tried to set this terminal with much shorter Rx timeout value such as 3.5 bytes in the main thread...but, it was not accurate. because of my poor skill ???
-if a device streams out a packet within the above value as the inter byte delay, they would be regarded as one string. a packet always starts from ">". it means your packet is not a string if you can see ">" in the middle of a packet and it was not a intended char.
+Thie terminal is inspired by Br@y Terminal. by the way. Thanks to Bray!
 
-**COMM WINDOW**\
-You can toggle between ASCII and HEX. a hex char is displayed by the format of "XX:" (two digits + colon). the characters beyond ASCII table will be displayed in the above manner even though you set it at ASCII mode.
-eg.: "8B:88:34" means "0x8B 0x88 0x33 9x34"
+![Radiosys@Term Serial Terminal](/images/Radiosys@Term_serial_terminal_0.4.png)
 
-**TRASMIT LINE**\
+* easy to use.
+
+* ASCII or HEX transmission.
+
+* ASCII or HEX receiption.
+
+* Differet color in transmission and receiption.
+
+* DTR & RTS controllable.
+
+* Twenty four (24) macros for transmission.
+
+
+
+## Usage/Examples
+
+### Rx Timeout
+
+It depens on the baudrate settings.
+
+In MODBUS side, it accepts 3.5 bytes of leadout delay though.
+
+This terminal waits and terminates a packet stream in 64 bytes timeout plus 10ms.\
+I have tried to set this terminal with much shorter Rx timeout value such as 3.5 bytes in the main thread...but, it was not accurate.
+because of my poor skill ???
+
+If a device streams out a packet within the above value as the inter byte delay, they would be regarded as one string.
+
+A packet always starts from ">".
+
+it means your packet is not a string if you can see ">" in the middle of a packet and it was not a intended char.
+
+### Comm Window
+
+You can toggle between ASCII and HEX.
+
+A hex char is displayed by the format of "XX:" (two digits + colon).
+The characters beyond ASCII table will be displayed in the above manner even though you set it at ASCII mode. eg.: "8B:88:34" means "0x8B 0x88 0x33 9x34"
+
+### Transmission
+
 You can set "EOL" (end of line) to terminate a string in "NONO", "CR", "LF", "CR+LF". or "CR" will be followed by your string if you press "Enter" key.
 
-There is a special char "$". you can use "$XX to send a hexdecimal char. and you have to use "$$" in order to send a real "$" character.
+There is a special char "**$**". you can use "$XX to send a hexdecimal char. and you have to use "$$" in order to send a real "$" character.
 
-example 1.
-abcdefgh123456 - this will send "abcdefgh123456"
-example 2.
-$$123 - this will send "$123"
-example 3.
-$01$02$03$04$05 - this will send 0x01 0x02 0x03 0x04 0x05
+* example 1. abcdefgh123456 - this will send "abcdefgh123456".
 
-**HOW TO USE TX MULTI FUNCTION?**\
-You can send a predefined string in each TX MULTI FUNCTION, totally twenty four (24). and you can set it periodic repeative timer. by the way, please be cautious to set up a right timer value depending on the length of packet and the baudrate you set up. and each TX MULTI FUNCTION has got same characteristic as one of the transmit line.
+* example 2. $$123 - this will send "$123".
 
-**VIRUS CHECKUP**\
+* example 3. $01$02$03$04$05 - this will send 0x01 0x02 0x03 0x04 0x05.
+
+### Macros (how to use Tx Multi Function?)
+
+You can send a predefined string in each macro(Tx Multi Function), totally twenty four (24).
+
+You can set it periodic repeative timer. by the way, please be cautious to set up a right timer value depending on the length of packet and the baudrate you set up.
+
+### Virus check
+
 I don't know why they suspect Radiosys@Term malicious. Windows Security often warns you it as a malicious app.
 
+![Radiosys@Term Virus Total check](/images/Radiosys@Term_virus_total_check.png)
 
+**It's Not reallistically!!!**
 
-</br>
-<img width="1630" height="1072" alt="about_Radiosys@Term_info" src="https://github.com/user-attachments/assets/bd418773-0c8d-4d41-8c13-79bea6105cea" />
-</br>
-</br>
+### High speed isolated USB to serial converter modules
 
-**CONTACT**\
-feel free to contact jnlee4838@gmail.com
-</br>
-</br>
-**High Speed Isolated USB to Serial Converter Modules**\
-</br>
-I was often in trouble to make the serial work properly whenever kick off new projects cause uart is the very first step.
-</br>
-I have decided to make some converter modules which support high speed and isolation in both signal and power.
-</br>
-</br>
-**1. High Speed Isolated USB to UART Converter Module 6Mbps 5kV**\
-</br>
-<img width="1252" height="1252" alt="Image" src="https://github.com/user-attachments/assets/70db2867-003f-4280-8e69-ced28b0d631b" />
-</br>
-Buy: [Here](https://smartstore.naver.com/radiosystek/products/12396782235)
-</br>
-</br>
-</br>
-**2. High Speed Isolated USB to 485 Converter Module 250kbps 5kV**\
-</br>
-<img width="1252" height="1252" alt="Image" src="https://github.com/user-attachments/assets/aa54847d-33b1-4e98-8b7f-fdc830b3b726" />
-</br>
-Buy: [Here](https://smartstore.naver.com/radiosystek/products/12405048497)
-</br>
-</br>
-</br>
-</br>
+I was often in trouble to make the serial work properly whenever kick off new projects cause "u(s)art" is the very first step.
+
+I have wasted a lot of time to make it.\
+Suffered from poor hardware...\
+Suffered from poor tools...
+
+The below converter modules support 5kV isolation in both signal & power lines.
+
+Also fulfilled the over-current protection, 15kV ESD...
+
+* **High Speed Isolated USB to UART Converter Module 6Mbps 5kV**
+
+![high speed isolated usb to uart converter module](/images/high_speed_isolated_usb_uart_converter_module.png)
+
+* Buy: [**Here**](https://smartstore.naver.com/radiosystek/products/12396782235)
+
+* **High Speed Isolated USB to 485 Converter Module 250kbps 5kV**
+
+![high speed isolated usb to 485 converter module](/images/high_speed_isolated_usb_485_converter_module.png)
+
+* Buy: [**Here**](https://smartstore.naver.com/radiosystek/products/12405048497)
+
+## Support
+
+For support, email me jnlee4838@gmail.com.
+## Related
+
+Here are some related projects
+
+[stm32l0 baremetal serial bootloader README](https://github.com/jnlee4838)
 

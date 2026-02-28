@@ -92,7 +92,7 @@ Suffered from poor hardware...
 
 Suffered from poor tools...
 
-The below converter modules support 5kV isolation in both signal & power lines.
+The below converter modules support 5kV RMS isolation in both signal & power lines.
 
 Also fulfilled the over-current protection, 15kV ESD...
 
@@ -100,18 +100,22 @@ Also fulfilled the over-current protection, 15kV ESD...
 
 ![high speed isolated usb to uart converter module](/images/high_speed_isolated_usb_uart_converter_module.png)
 
-* Buy: [**Here**](https://smartstore.naver.com/radiosystek/products/12396782235)
+* Buy:
+  * Korea: [**Buy Here**](https://smartstore.naver.com/radiosystek/products/12396782235)
+  * International: [**Buy Here**](https://buykorea.org/ec/prd/selectGoodsDetail.do?goodsSn=3771536)
 
 * **High Speed Isolated USB to 485 Converter Module 250kbps 5kV**
 
 ![high speed isolated usb to 485 converter module](/images/high_speed_isolated_usb_485_converter_module.png)
 
-* Buy: [**Here**](https://smartstore.naver.com/radiosystek/products/12405048497)
+* Buy:
+  * Korea:  [**Buy Here**](https://smartstore.naver.com/radiosystek/products/12405048497)
+  * International: [**Buy Here**](https://buykorea.org/ec/prd/selectGoodsDetail.do?goodsSn=3771537)
 
 
 ## Support
 
-For support, email me jnlee4838@gmail.com.
+For support, [**email me**](jnlee4838@gmail.com)
 
 
 ## Related

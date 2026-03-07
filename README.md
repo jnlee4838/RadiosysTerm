@@ -3,11 +3,16 @@
 
 Another serial terminal in MS Windows 8 later...
 
-Sorry! It is an exe file, no source code.
+It is an exe file, no source code.
 
 This terminal is inspired by Br@y Terminal. by the way. Thanks to Bray!
 
-![Radiosys@Term Serial Terminal](/images/Radiosys@Term_serial_terminal_0.4.png)
+## Updated V0.0.5
+
+* **Resize**: Resizable and COMM window will be enlarged.
+* **Font & Font Size**: the font is changed to "Arial Narrow" 10pt & another font in COMM window has been changed to "Arial" 11pt for better discrmination.
+
+![Radiosys@Term Serial Terminal](/images/Radiosys@Term_serial_terminal_0_5.png)
 
 * easy to use.
 
@@ -66,7 +71,7 @@ There is a special char "**$**". you can use "$XX to send a hexdecimal char. and
 * example 3. $01$02$03$04$05 - this will send 0x01 0x02 0x03 0x04 0x05.
 
 
-### Macros (how to use Tx Multi Function?)
+### Macro
 
 You can send a predefined string in each macro(Tx Multi Function), totally twenty four (24).
 
@@ -94,33 +99,9 @@ Suffered from poor tools...
 
 The below converter modules support 5kV RMS isolation in both signal & power lines.
 
-Also fulfilled the over-current protection, 15kV ESD...
-
-* **High Speed Isolated USB to UART Converter Module 6Mbps 5kV**
-
-![high speed isolated usb to uart converter module](/images/high_speed_isolated_usb_uart_converter_module.png)
-
-* Buy:
-  * Korea: [**Buy Here**](https://smartstore.naver.com/radiosystek/products/12396782235)
-  * International: [**Buy Here**](https://buykorea.org/ec/prd/selectGoodsDetail.do?goodsSn=3771536)
-
-* **High Speed Isolated USB to 485 Converter Module 250kbps 5kV**
-
-![high speed isolated usb to 485 converter module](/images/high_speed_isolated_usb_485_converter_module.png)
-
-* Buy:
-  * Korea:  [**Buy Here**](https://smartstore.naver.com/radiosystek/products/12405048497)
-  * International: [**Buy Here**](https://buykorea.org/ec/prd/selectGoodsDetail.do?goodsSn=3771537)
-
 
 ## Support
 
 For support, [**email me**](jnlee4838@gmail.com)
 
-
-## Related
-
-Here are some related projects
-
-[stm32l0 baremetal serial bootloader README](https://github.com/jnlee4838)
 

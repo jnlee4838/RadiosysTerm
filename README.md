@@ -87,19 +87,6 @@ I don't know why they suspect Radiosys@Term malicious. Windows Security often wa
 **It's Not reallistically!!!**
 
 
-### High speed isolated USB to serial converter modules
-
-I was often in trouble to make the serial work properly whenever kick off new projects cause "u(s)art" is the very first step.
-
-I have wasted a lot of time to make it.
-
-Suffered from poor hardware...
-
-Suffered from poor tools...
-
-The below converter modules support 5kV RMS isolation in both signal & power lines.
-
-
 ## Support
 
 For support, [**email me**](jnlee4838@gmail.com)

@@ -84,7 +84,7 @@ I don't know why they suspect Radiosys@Term malicious. Windows Security often wa
 
 ![Radiosys@Term Virus Total check](/images/Radiosys@Term_virus_total_check.png)
 
-**It's Not reallistically!!!**
+**It's Not !!!**
 
 
 ## Support

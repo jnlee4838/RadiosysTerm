@@ -82,9 +82,9 @@ You can set it periodic repeative timer. by the way, please be cautious to set u
 
 I don't know why they suspect Radiosys@Term malicious. Windows Security often warns you it as a malicious app.
 
-![Radiosys@Term Virus Total check](/images/Radiosys@Term_virus_total_check.png)
-
 **It's Not !!!**
+
+![Radiosys@Term Virus Total check](/images/Radiosys@Term_virus_total_check.png)
 
 
 ## Support
